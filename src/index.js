@@ -8,7 +8,7 @@ ReactDOM.render(
     <div>
         {/*<HelloMessage name="Marty" />*/}
         {/*<App />*/}
-        <WithProps txt="this is the prop text" />
+        <WithProps cat={5} txt="this is the prop text" />
         {/*<WithProps txt="this is the prop value" />*/}
     </div>,
   document.getElementById('root')
