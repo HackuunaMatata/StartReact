@@ -8,7 +8,8 @@ import ReactDOM from 'react-dom';
 // import WithPropsChildren from './WithPropsChildren';
 // import WithCustomType from './WithCustomType';
 // import SyntheticEventSystem from './SyntheticEventSystem';
-import ReactRef from './ReactRef'
+// import ReactRef from './ReactRef';
+import Lifecycle from './Lifecycle';
 
 ReactDOM.render(
     <div>
@@ -21,7 +22,8 @@ ReactDOM.render(
         {/*<WithPropsChildren />*/}
         {/*<WithCustomType />*/}
         {/*<SyntheticEventSystem />*/}
-        <ReactRef />
+        {/*<ReactRef />*/}
+        <Lifecycle />
     </div>,
   document.getElementById('root')
 );
