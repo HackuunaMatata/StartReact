@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom';
 // import HelloMessage from './Hello';
 // import App from './App';
 // import WithProps from './WithProps';
-import WithState from './WithState';
+// import WithState from './WithState';
+import WithChildren from './WithChildren';
 
 ReactDOM.render(
     <div>
@@ -11,7 +12,8 @@ ReactDOM.render(
         {/*<App />*/}
         {/*<WithProps cat={5} txt="this is the prop text" />*/}
         {/*<WithProps txt="this is the prop value" />*/}
-        <WithState />
+        {/*<WithState />*/}
+        <WithChildren />
     </div>,
   document.getElementById('root')
 );
