@@ -11,7 +11,8 @@ import ReactDOM from 'react-dom';
 // import ReactRef from './ReactRef';
 // import Lifecycle from './Lifecycle';
 // import StateLifecycle from './StateLifecycle';
-import ControlUpdates from './ControlUpdates';
+// import ControlUpdates from './ControlUpdates';
+import ComponentFromArrays from './ComponentFromArrays';
 
 ReactDOM.render(
     <div>
@@ -27,7 +28,8 @@ ReactDOM.render(
         {/*<ReactRef />*/}
         {/*<Lifecycle />*/}
         {/*<StateLifecycle />*/}
-        <ControlUpdates />
+        {/*<ControlUpdates />*/}
+        <ComponentFromArrays />
     </div>,
   document.getElementById('root')
 );
