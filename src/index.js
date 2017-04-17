@@ -12,7 +12,8 @@ import ReactDOM from 'react-dom';
 // import Lifecycle from './Lifecycle';
 // import StateLifecycle from './StateLifecycle';
 // import ControlUpdates from './ControlUpdates';
-import ComponentFromArrays from './ComponentFromArrays';
+// import ComponentFromArrays from './ComponentFromArrays';
+import BehaviorWithHigher from './BehaviorWithHigher';
 
 ReactDOM.render(
     <div>
@@ -29,7 +30,8 @@ ReactDOM.render(
         {/*<Lifecycle />*/}
         {/*<StateLifecycle />*/}
         {/*<ControlUpdates />*/}
-        <ComponentFromArrays />
+        {/*<ComponentFromArrays />*/}
+        <BehaviorWithHigher />
     </div>,
   document.getElementById('root')
 );
