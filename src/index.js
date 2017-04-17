@@ -4,7 +4,8 @@ import ReactDOM from 'react-dom';
 // import App from './App';
 // import WithProps from './WithProps';
 // import WithState from './WithState';
-import WithChildren from './WithChildren';
+// import WithChildren from './WithChildren';
+import WithPropsChildren from './WithPropsChildren';
 
 ReactDOM.render(
     <div>
@@ -13,7 +14,8 @@ ReactDOM.render(
         {/*<WithProps cat={5} txt="this is the prop text" />*/}
         {/*<WithProps txt="this is the prop value" />*/}
         {/*<WithState />*/}
-        <WithChildren />
+        {/*<WithChildren />*/}
+        <WithPropsChildren />
     </div>,
   document.getElementById('root')
 );
