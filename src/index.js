@@ -5,7 +5,8 @@ import ReactDOM from 'react-dom';
 // import WithProps from './WithProps';
 // import WithState from './WithState';
 // import WithChildren from './WithChildren';
-import WithPropsChildren from './WithPropsChildren';
+// import WithPropsChildren from './WithPropsChildren';
+import WithCustomType from './WithCustomType'
 
 ReactDOM.render(
     <div>
@@ -15,7 +16,8 @@ ReactDOM.render(
         {/*<WithProps txt="this is the prop value" />*/}
         {/*<WithState />*/}
         {/*<WithChildren />*/}
-        <WithPropsChildren />
+        {/*<WithPropsChildren />*/}
+        <WithCustomType />
     </div>,
   document.getElementById('root')
 );
