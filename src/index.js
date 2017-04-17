@@ -6,7 +6,8 @@ import ReactDOM from 'react-dom';
 // import WithState from './WithState';
 // import WithChildren from './WithChildren';
 // import WithPropsChildren from './WithPropsChildren';
-import WithCustomType from './WithCustomType'
+// import WithCustomType from './WithCustomType';
+import SyntheticEventSystem from './SyntheticEventSystem';
 
 ReactDOM.render(
     <div>
@@ -17,7 +18,8 @@ ReactDOM.render(
         {/*<WithState />*/}
         {/*<WithChildren />*/}
         {/*<WithPropsChildren />*/}
-        <WithCustomType />
+        {/*<WithCustomType />*/}
+        <SyntheticEventSystem />
     </div>,
   document.getElementById('root')
 );
