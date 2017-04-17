@@ -10,7 +10,8 @@ import ReactDOM from 'react-dom';
 // import SyntheticEventSystem from './SyntheticEventSystem';
 // import ReactRef from './ReactRef';
 // import Lifecycle from './Lifecycle';
-import StateLifecycle from './StateLifecycle';
+// import StateLifecycle from './StateLifecycle';
+import ControlUpdates from './ControlUpdates';
 
 ReactDOM.render(
     <div>
@@ -25,7 +26,8 @@ ReactDOM.render(
         {/*<SyntheticEventSystem />*/}
         {/*<ReactRef />*/}
         {/*<Lifecycle />*/}
-        <StateLifecycle />
+        {/*<StateLifecycle />*/}
+        <ControlUpdates />
     </div>,
   document.getElementById('root')
 );
